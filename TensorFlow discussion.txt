@@ -16,8 +16,8 @@ Week 2 Task:
 
 Join Course on Coursera:
 Deep Learning Specialization (Optional)
-- Intro to Neural Networks
-- Improving hypertuning parameters
+- Intro to Neural Networks (Mandatory)
+- Improving hypertuning parameters (Mandatory)
 - Structuring Machine Learning Projects
 - Convolution Neural Networks
 - Recurrent Neural Networks
