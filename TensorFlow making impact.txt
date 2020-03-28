@@ -1,0 +1,28 @@
+Week 1 Task:
+
+Tensorflow links for motivation
+
+https://www.youtube.com/watch?v=NlpS-DhayQA (Mandatory)
+https://www.youtube.com/watch?v=v-FgOACRgfs (Mandatory)
+https://www.youtube.com/watch?v=uGYJuOyIvzs (Mandatory)
+
+Useful Tensorflow Links for starting with:
+https://www.youtube.com/watch?v=F_uuqfgdZZw&t=3222s (Mandatory) (1 hr)
+https://www.youtube.com/watch?v=E8n_k6HNAgs (Mandatory) (1hr 15 Min)
+
+Medium Read for 10 mins each day on Tensorflow (Mandatory)
+
+Week 2 Task:
+
+Join Course on Coursera:
+Deep Learning Specialization (Optional)
+- Intro to Neural Networks
+- Improving hypertuning parameters
+- Structuring Machine Learning Projects
+- Convolution Neural Networks
+- Recurrent Neural Networks
+https://www.coursera.org/learn/introduction-tensorflow/home/welcome (Mandatory)
+https://classroom.udacity.com/courses/ud187 (Mandatory)
+
+VS code for windows (Optional)
+https://www.youtube.com/watch?v=-nh9rCzPJ20
