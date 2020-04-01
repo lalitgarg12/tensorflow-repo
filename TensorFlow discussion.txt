@@ -7,8 +7,9 @@ https://www.youtube.com/watch?v=v-FgOACRgfs (Mandatory)
 https://www.youtube.com/watch?v=uGYJuOyIvzs (Mandatory)
 
 Useful Tensorflow Links for starting with:
-https://www.youtube.com/watch?v=F_uuqfgdZZw&t=3222s (Mandatory) (1 hr)
-https://www.youtube.com/watch?v=E8n_k6HNAgs (Mandatory) (1hr 15 Min)
+https://www.youtube.com/watch?v=F_uuqfgdZZw&t=3222s (Mandatory) (1 hr) Tensorflow 1.x
+https://www.youtube.com/watch?v=E8n_k6HNAgs (Mandatory) (1hr 15 Min) Tensorflow 1.x
+https://www.youtube.com/watch?v=tPYj3fFJGjk (Optional) for Tensorflow 2.0 (6 hr 52 mins)
 
 Medium Read for 10 mins each day on Tensorflow (Mandatory)
 
@@ -22,7 +23,11 @@ Deep Learning Specialization (Optional)
 - Convolution Neural Networks
 - Recurrent Neural Networks
 https://www.coursera.org/learn/introduction-tensorflow/home/welcome (Mandatory)
+https://www.coursera.org/learn/getting-started-with-tensor-flow2/home/welcome (Mandatory)
 https://classroom.udacity.com/courses/ud187 (Mandatory)
 
 VS code for windows (Optional)
 https://www.youtube.com/watch?v=-nh9rCzPJ20
+
+Understanding more about Convolution Neural Networks: 42 Videos
+https://www.youtube.com/playlist?list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF
