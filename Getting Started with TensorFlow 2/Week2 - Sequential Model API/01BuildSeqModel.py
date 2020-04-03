@@ -21,3 +21,4 @@ model.compile(optimizer = 'Adam',
 print(model.loss)
 print(model.metrics)
 print(model.optimizer)
+print(model.weights)
