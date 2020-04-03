@@ -24,7 +24,7 @@ training_images = training_images / 255.0
 test_images = test_images / 255.0
 
 #Compiling the model
-model.compile(optimizer = tf.train.AdamOptimizer(),
+model.compile(optimizer = 'adam',
               loss = 'sparse_categorical_crossentropy')
 
 #Fitting the model (doing training on training dataset)
