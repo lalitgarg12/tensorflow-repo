@@ -95,7 +95,27 @@ loss_plot.set(xlabel="Epochs", ylabel = "Accuracy")
 loss_plot = df.plot(y="mean_absolute_error", title = "MAE vs Epochs", legend = False)
 loss_plot.set(xlabel="Epochs", ylabel = "MAE")
 
+#Evaluation on test dataset.
 
+# Evaluate the model
 
+model.evaluate(test_images[...,np.newaxis], test_labels, verbose=2)
+test_loss, test_accuracy, test_mae = model.evaluate(test_images[...,np.newaxis], test_labels, verbose=2)
 
+# Choose a random test image
+
+random_inx = np.random.choice(test_images.shape[0])
+
+inx = 30
+test_image = test_images[inx]
+plt.imshow(test_image)
+plt.show()
+print(f"lable: {labels[test_labels[inx]]}")
+
+# Get the model predictions
+
+model.predict(test_image[np.newaxis,...,np.newaxis])
+
+predictions = model.predict(test_image[np.newaxis,...,np.newaxis])
+print(f"Model Prediction: {labels[np.argmax(predictions)]}")
 
