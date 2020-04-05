@@ -14,7 +14,12 @@ model.compile(
 )
 
 #model.fit(X_train, y_train, epochs = 10, batch_size=32)
-#history = model.fit(X_train, y_train, epochs = 10, batch_size=32)
+#history = model.fit(X_train, y_train, epochs = 10, batch_size=32, verbose=2)
+
+# verbose = 0,1,2 (values)
+# 2 - Print one line per epoch
+# 1 - is default
+# 0 - will silence the print out
 
 #model.fit returns the history object with loss and accuracy matrix in dictionary form which we can store in dataframe to print 
 #graph for the loss vs epochs | accuracy vs epochs | metric vs epoch
