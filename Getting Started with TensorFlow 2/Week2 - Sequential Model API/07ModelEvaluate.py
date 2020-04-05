@@ -43,7 +43,7 @@ model.compile(
 #pred = model.predict(X_sample) # [[0.93957397, 0.0189931, 0.04143293]
 #                                  [0.01211542, 0.0907736, 0.89711098]]
 
-#In this output, first dimension would be number of samples i.e. 2, 
+# In this output, first dimension would be number of samples i.e. 2, 
 # second dimension would be 3 i.e for the number of classes.
 # Each row output is predicted by softmax function for probability
 # Sum of each row has to be 1 as per rules of probability
