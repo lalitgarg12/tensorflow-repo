@@ -13,7 +13,7 @@ model.compile(optimizer='adam',
             loss = 'categorical_crossentropy',
             metrics = ['accuracy'])
 
-#early_stopping = EarlyStopping(monitor=val_loss,
+#early_stopping = EarlyStopping(monitor='val_loss',
 #                                patience=5, 
 #                                min_delta=0.01,
 #                                mode='max') #val_loss is default parameter in earlystopping
