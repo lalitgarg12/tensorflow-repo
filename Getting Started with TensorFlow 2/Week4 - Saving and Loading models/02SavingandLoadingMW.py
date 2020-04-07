@@ -30,12 +30,18 @@ checkpoint = ModelCheckpoint('my_model', save_weights_only=True)
 #Alternative way of saving
 checkpoint = ModelCheckpoint('keras_model.h5', save_weights_only=True)
 
+#Check the filepath
+checkpoint_path = 'model_checkpoint/checkpoint'
+#checkpoint = ModelCheckpoint(filepath=checkpoint_path, frequency='epoch',
+                            #save_weights_only=True, verbose = 1)
+#! ls -lh filepath
+
 # keras_model.h5
 
 #Best practice is to save in native tensorflow format.
 
 #How do we load from previously saved weights.
-model.load_weights('my_model')
+model.load_weights('my_model') #checkpoint_path
 model.load_weights('keras_model.h5')
 
 #How do we save weights manually without checkpoint callback
