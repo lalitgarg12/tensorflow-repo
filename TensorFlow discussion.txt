@@ -28,6 +28,11 @@ Deep Learning Specialization (Optional)
 https://www.coursera.org/learn/introduction-tensorflow/home/welcome (Mandatory)
 https://www.coursera.org/learn/getting-started-with-tensor-flow2/home/welcome (Mandatory)
 https://classroom.udacity.com/courses/ud187 (Mandatory)
+http://neuralnetworksanddeeplearning.com/index.html
+http://www.deeplearningbook.org/
+
+Tensorflow Playground:
+http://playground.tensorflow.org/
 
 VS code for windows (Optional)
 https://www.youtube.com/watch?v=-nh9rCzPJ20
