@@ -31,3 +31,8 @@ def get_new_model(input_shape):
 
     return model
 
+# checkpoint_path = 'checkpoints_every_epoch/checkpoint_{epoch:03d}'
+# checkpoint_dir = os.path.dirname(checkpoint_path)
+# !ls {checkpoint_dir}
+# latest = tf.train.latest_checkpoint(checkpoint_dir)
+# latest
