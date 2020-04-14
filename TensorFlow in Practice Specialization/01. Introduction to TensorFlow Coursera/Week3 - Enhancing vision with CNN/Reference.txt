@@ -1,0 +1,3 @@
+To learn more about filters and their codes about how they work.
+
+https://lodev.org/cgtutor/filtering.html
