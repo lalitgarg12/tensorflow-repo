@@ -1,0 +1,3 @@
+#Exploring Large Datasets
+https://www.kaggle.com/c/dogs-vs-cats (for 25000 images)
+https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip (for 2000 images)
