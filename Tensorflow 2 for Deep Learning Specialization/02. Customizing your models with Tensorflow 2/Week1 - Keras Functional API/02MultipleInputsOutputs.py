@@ -14,7 +14,11 @@ aux_outputs = Dense(1, activation='Linear')(h)
 model = Model(inputs = [inputs, aux_inputs], outputs = [outputs, aux_outputs])
 
 # In this, we have multiple inputs and multiple outputs
+# In this new model design, the auxiliary input is included in the model as an extra input to the final dense layer.
 # Shape of input layer and output layer has to be taken care for concatenation
+# Notice that the input is one-dimensional and so it has the right shape to be fed into the dense layer.
+# Just before the final dense layer it's the flattened layer. And this outputs an unrolls tensor h. 
+# The next line takes this output tensor h, and concatenates it with the auxiliary input to make a single one-dimensional vector.
 
 # model.compile(loss=['binary_crossentropy', 'mse'], 
 #                     loss_weights=[1, 0.4], 
