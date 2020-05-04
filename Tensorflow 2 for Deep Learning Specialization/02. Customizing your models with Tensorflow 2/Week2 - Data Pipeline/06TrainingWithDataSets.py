@@ -32,7 +32,7 @@ print(dataset.element_spec)
 # pass through the data set object.
 
 # If we want to train for 10 epochs we could do this.
-# dataset.repeat method will do teh same.
+# dataset.repeat method will do the same.
 # If I remove argument from repeat, dataset will repeat indefinitely.
 # I can set steps_per_epoch argument so training process knows when an epoch has ended.
 # Because my batch_size is 16, the number of steps per epoch 
