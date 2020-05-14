@@ -22,6 +22,8 @@ mymodel.compile(optimizer='adam',
 
 mymodel.summary()
 
+# How many parameters does this model have if it is called on a numpy array input of shape (128, 8)?
+
 # So this model will have 212 parameters.
 # 16*8+16 = 144
 # 16*4 + 4 = 68
