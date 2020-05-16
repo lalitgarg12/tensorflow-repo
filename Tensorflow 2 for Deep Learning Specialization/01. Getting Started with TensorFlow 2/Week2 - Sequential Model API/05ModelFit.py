@@ -34,6 +34,3 @@ model.compile(
 # y_train would also be same except number of classes in second dimension.
 # Assumption here is labels represented as one hot vector
 # or if label is sparse representation, y_train could be one dimensional vector
-
-
-

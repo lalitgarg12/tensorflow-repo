@@ -3,7 +3,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Flatten, Softmax
 
 model = Sequential([
-    Dense(64, activation='elu', input_shape = (32,)),
+    Dense(64, activation='elu', input_shape = (32,)), #exponential linear unit activation
     Dense(1, activation='sigmoid') # 'relu', 'linear', 'tanh'
 ])
 
