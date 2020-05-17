@@ -13,8 +13,8 @@ model.compile(
     metrics = ['accuracy']
 )
 
-#model.fit(X_train, y_train, epochs = 10, batch_size=32)
-#history = model.fit(X_train, y_train, epochs = 10, batch_size=32, verbose=2)
+# .fit(X_train, y_train, epochs = 10, batch_size=32)
+# history = model.fit(X_train, y_train, epochs = 10, batch_size=32, verbose=2)
 
 # verbose = 0,1,2 (values)
 # 2 - Print one line per epoch

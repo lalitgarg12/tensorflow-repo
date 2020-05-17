@@ -14,4 +14,4 @@ from keras.callbacks import Callback
     #def on_epoch_end(self, epoch, logs=None):
         # Do something at the end of every epoch
 
-#history = model.fit(X_train, y_train, epochs=5, callbacks=[my_callback()])
+# history = model.fit(X_train, y_train, epochs=5, callbacks=[my_callback()])

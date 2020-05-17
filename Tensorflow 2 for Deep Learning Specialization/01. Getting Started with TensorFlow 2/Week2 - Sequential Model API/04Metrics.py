@@ -3,7 +3,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Flatten
 import keras.backend as K
 
-#Build the model
+# Build the model
 model = Sequential([
   Flatten(input_shape=(28,28)),
   Dense(32, activation='relu'),
@@ -11,7 +11,7 @@ model = Sequential([
   Dense(10, activation='softmax'),
 ])
 
-#Compile the model
+# Compile the model
 model.compile(optimizer='adam',
               loss='sparse_categorical_crossentropy',
               metrics=['accuracy'])

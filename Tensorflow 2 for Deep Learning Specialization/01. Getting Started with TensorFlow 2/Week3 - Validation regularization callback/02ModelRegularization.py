@@ -8,16 +8,16 @@ model = Sequential([
     Dense(1, activation='sigmoid')
 ])
 
-#l2 requires one argument coefficient that multiplies with sum of squared weights in this layer
+# l2 requires one argument coefficient that multiplies with sum of squared weights in this layer
 # Dense layer has weights and biases and weight matrix is called kernel
 
 model.compile(optimizer='adadelta',
             loss='binary_crossentropy',
             metrics=['accuracy'])
-#model.fit(inputs, targets, validation_split=0.25)
+# model.fit(inputs, targets, validation_split=0.25)
 
-#Weight decay penalty term in automatically added to the loss function when we compile the model
-#This penalizes the large weights in the first layer
+# Weight decay penalty term in automatically added to the loss function when we compile the model
+# This penalizes the large weights in the first layer
 
 model = Sequential([
     Dense(64, activation = 'relu',
@@ -25,8 +25,8 @@ model = Sequential([
     Dense(1, activation='sigmoid')
 ])
 
-#We can also use l1 regularization
-#This coefficient multiplies with sum of absolute weight values
+# We can also use l1 regularization
+# This coefficient multiplies with sum of absolute weight values
 
 model = Sequential([
     Dense(64, activation = 'relu',
@@ -35,8 +35,8 @@ model = Sequential([
     Dense(1, activation='sigmoid')
 ])
 
-#We can use both regularization as well as above.
-#coefficients can be used independently.
+# We can use both regularization as well as above.
+# coefficients can be used independently.
 # we can use bias regularizer also as above.
 
 from keras.layers import Dropout
