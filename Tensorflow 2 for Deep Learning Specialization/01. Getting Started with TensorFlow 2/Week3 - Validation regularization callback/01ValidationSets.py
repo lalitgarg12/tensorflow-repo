@@ -16,6 +16,7 @@ model.compile(optimizer=opt, loss='mse', metrics=['mape'])
 #history also records the performance on the validation set
 
 #print(history.history.keys()) #dict_keys(['loss', 'mape', 'val_loss', 'val_mape'])
+#these values were stored inside the history attributes of the history object and this attribute is a Python dictionary.
 
 #Second option:
 #Sometimes, datasets are already loaded with train and test splits like MNIST

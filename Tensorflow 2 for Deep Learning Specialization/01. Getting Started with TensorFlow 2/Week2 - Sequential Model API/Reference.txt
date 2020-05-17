@@ -2,6 +2,10 @@
 https://keras.io/initializers/
 https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/keras/initializers
 
-##Further reading and resources
+## Further reading and resources
 https://keras.io/metrics/
 https://github.com/keras-team/keras/blob/master/keras/metrics.py
+
+## Further reading and resources
+https://keras.io/layers/normalization/
+https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/keras/layers/BatchNormalization

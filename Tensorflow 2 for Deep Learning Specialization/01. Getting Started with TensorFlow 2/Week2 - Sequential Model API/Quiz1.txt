@@ -20,3 +20,12 @@ Ans: (num_samples,16,4)
 
 Q4: If X_sample has shape (10, 16, 4), what will be the output shape of model.predict(X_sample)?
 Ans: (10,2)
+
+Q5: What should p1 and p2 be to ensure a 60/20/20 training/validation/test split?
+
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=p1)
+model.fit(X_train, y_train, validation_split=p2)
+
+Ans: p1 = 0.2, p2 = 0.25
+Correct, well done! We take 20% as the test data (p1) and then take 25% of the remaining 80% of the data (p2) for validation
