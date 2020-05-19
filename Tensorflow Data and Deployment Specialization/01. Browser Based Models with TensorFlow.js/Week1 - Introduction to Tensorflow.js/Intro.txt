@@ -1,0 +1,19 @@
+You might be used to thinking of neural network training and inference as requiring beefy GPUs,
+running a big data center or maybe a big GPU at least in your desktop. But modern web browsers have come a long
+ways and modern computers are quite fast and web browsers are now full flesh runtime environments. 
+
+One of the exciting things about JS is that it allows you to do neural network training and
+inference right there in your web browser. 
+
+And the performance is amazingly good too. So even if you're training when the
+browser and your desktop has a GP on it with the webgl layer, you can get
+some really really nice performance. And we're going to be having some fun
+with some scenarios around that later in the course. 
+
+So I think it's really cool that a user can upload a picture to a web browser or grab an image from a webcam. 
+And then have a neural network do training or inference right in the web browser without needing to send that image up to
+the cloud to be processed by a server. 
+
+Yeah, so you're going to save time on the round tripping or if in a scenario if you're doing it on mobile for example
+that you don't even need to be connected. Possess user privacy as well and for some applications that's important. 
+And so in this course you learn how to do all this yourself. Please go on to the next video.
