@@ -1,6 +1,6 @@
 import tensorflow as tf 
-from keras.layers import Input, Dense, Flatten, Conv1D, AveragePooling1D, Sequential
-from keras.models import Model
+from tensorflow.keras.layers import Input, Dense, Flatten, Conv1D, AveragePooling1D, Sequential
+from tensorflow.keras.models import Model
 
 #Functional API
 inputs = Input(shape=(32,1))
